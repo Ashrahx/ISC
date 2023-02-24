@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Pizza">
+        <meta name="keywords" content="html web pizzeria">
+        <meta name="author" content="Ashrah">
+        <style>
+            textarea{
+                resize:none;
+            }
+            h1{
+                font-size: 45px;
+                text-align: center;
+            }
+            body{
+                width: 700px;
+                margin: 30px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>.::Freddy Fazbear´s Pizza::.</h1>
+        <form method="post" action="">
+                <label for="specialties">Especialidades:</label>
+                <select name="specialties">
+                    <option value="haw"selected>Hawaiiana</option>
+                    <option value="mx">Mexicana</option>
+                    <option value="mx">Pepperoni</option>
+                    <option value="mx">Vegetariana</option>
+                    <option value="mx">Special Freddy´s Pizza</option>
+                </select>
+                <br><br> 
+           <fieldset>
+             <legend>Tamaño</legend>
+              <input type="radio" name="size" value="1" checked>
+              <label for="size">Individual $65.00</label>
+             <br><br>
+              <input type="radio" name="size" value="2">
+              <label for="size">Mediana $75.00</label>
+             <br><br>
+              <input type="radio" name="size" value="3">
+              <label for="size">Grande $95.00</label>
+             <br><br>
+              <input type="radio" name="size" value="4">
+              <label for="size">Familiar $120.00</label>
+             </fieldset>
+             <fieldset>
+                <legend>Extras</legend>
+                <input type="checkbox" name="cola" value="marcado">
+                <label for="cola">Refresco 2L $30.00</label>
+                <br><br>
+                <input type="checkbox" name="fizzy" value="marcado">
+                <label for="fizzy">FizzyFaz Random Flavor $15.00</label>
+                <br><br>
+                <input type="checkbox" name="ranch" value="marcado">
+                <label for="ranch">Dip Ranch $45.00</label>
+                <br><br>
+                <input type="checkbox" name="bbq" value="marcado">
+                <label for="bbq">Dip BBQ $50.00</label>
+                <br><br>
+                <input type="checkbox" name="salad" value="marcado">
+                <label for="salad">Special Monty´s Salad $80.00</label>
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Datos del Cliente</legend>
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" placeholder="Nombre completo" required>
+                <br><br>
+                <label for="phone">Teléfono</label>
+                <input type="text" name="phone" placeholder="(123) 456-78-90" pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+                <br><br>
+                <label for="address">Dirección</label><br>
+                <textarea name="address" cols="40" rows="10" placeholder="Calle Colonia Ciudad Estado Código postal" required></textarea>
+             </fieldset>
+             <br><br>
+             <input type="reset" value="Borrar">
+             <input type="submit" name="send"  value="Enviar pedido">
+        </form>
+     </body>
+</html>

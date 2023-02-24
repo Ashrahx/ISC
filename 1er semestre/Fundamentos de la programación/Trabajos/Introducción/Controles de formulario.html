@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Primer trabajo">
+        <meta name="keywords" content="html web primer_trabajo">
+        <meta name="author" content="Pedro Emiliano Garcia Oñate">
+        <style>
+            textarea{
+                resize:none;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Formulario de contacto-->
+        <form method="post" action="">
+            <fieldset>
+               <legend>Datos personales</legend>
+               <label for="name">Nombre:</label>
+               <input type="text" name="name" placeholder="Nombre completo" required>
+               <br><br>
+               <label for="age">Edad</label>
+               <input type="number" name="age" min="1" max="100">
+               <br><br>
+               <label for="birthdate">Fecha de nacimiento</label>
+               <input type="date" name="birthdate">
+               <br><br>
+               <label for="color">Color favorito</label>
+               <input type="color" name="color">
+               <br><br>
+               <label for="mail">Correo electronico</label>
+               <input type="email" name="mail" placeholder="nombre@dominio.ext" required>
+               <br><br>
+               <label for="pass">Contraseña</label>
+               <input type="password" name="pass" placeholder="Ingresa tu contraseña" required>
+            </fieldset>
+            <fieldset>
+                <legend>Hobbies</legend>
+                <input type="checkbox" name="dance" value="marcado">
+                <label for="dance">Bailar</label>
+                <br><br>
+                <input type="checkbox" name="lecture" value="marcado">
+                <label for="lecture">Lectura</label>
+                <br><br>
+                <input type="checkbox" name="game" value="marcado">
+                <label for="game">Videojuegos</label>
+                <br><br>
+                <input type="checkbox" name="walk" value="marcado">
+                <label for="walk">Senderismo</label>
+                <br><br>
+                <input type="checkbox" name="paper" value="marcado">
+                <label for="paper">Papiroflexia</label>
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Ciudad</legend>
+                <input type="radio" name="city" value="1" checked>
+                <label for="city">Cuatro Ciénegas</label>
+                <br><br>
+                <input type="radio" name="city" value="2">
+                <label for="city">El Paso</label>
+                <br><br>
+                <input type="radio" name="city" value="3">
+                <label for="city">Gómez</label>
+                <br><br>
+                <input type="radio" name="city" value="4">
+                <label for="city">Matamoros</label>
+                <br><br>
+                <input type="radio" name="city" value="5">
+                <label for="city">Torreón</label>
+                <br><br>
+                <label for="state">Estado:</label>
+                <select name="state">
+                    <optgroup label="México">
+                        <option value="Coah"selected>Coahuila</option>
+                        <option value="Dur">Durango</option>
+                    </optgroup>
+                    <optgroup label="EUA">
+                    <option value="Tx">Texas</option>
+                </optgroup>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios</legend>
+                <textarea name="comments" cols="100" rows="10" placeholder="Escribe aquí tus comentarios"></textarea>
+             </fieldset>
+             <input type="reset" value="Reiniciar">
+             <input type="submit" name="ok"  value="Aceptar">
+        </form>
+    </body>
+</html>

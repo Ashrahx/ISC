@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Armado de Computadoras">
+        <meta name="keywords" content="Compus Hardware CompuNET Armado_de_computadoras">
+        <meta name="author" content="Pedro Emiliano Garcia Oñate">
+        <style>
+             textarea{
+                resize:none;
+            }
+        </style>
+        <title>.::CompuNET::.</title>
+    </head>
+    <body>
+        <h1>.::COMPUNET::.</h1>
+        <form method="post" action="">
+            <fieldset>
+                <legend>Motherboards</legend>
+                    <input type="radio" name="mbs" value="Asus">
+                    <label for="mbs">Asus</label>
+                    <br><br>
+                    <input type="radio" name="mbs" value="Gigabyte" checked>
+                    <label for="mbs">Gigabyte</label>
+                    <br><br>
+                    <input type="radio" name="mbs" value="Msi">
+                    <label for="mbs">Msi</label>
+            </fieldset>
+                <br>
+                <legend>Fuente de Poder</legend>
+                <label for="ups">ups:</label>
+                <select name="ups">
+                    <option value="400">400w</option>
+                    <option value="600">600w</option>
+                    <option value="800" selected>800w</option>
+                    <option value="1200">1200w</option>
+                </select>
+                <br><br> 
+             <fieldset>
+                <legend>Procesadores</legend>
+                <label for="mark">Marca:</label>
+                <select name="procs">
+                    <option value="intel"selected>INTEL</option>
+                    <option value="amd">AMD</option>
+                </select>
+                <br><br>
+                <label for="a">Gigahz</label> <br>
+                <input type="radio" name="ghz" value="2.1">
+                <label for="ghz">2.1Ghz</label>
+                <br><br>
+                <input type="radio" name="ghz" value="2.4" checked>
+                <label for="ghz">2.4Ghz</label>
+                <br><br>
+                <input type="radio" name="ghz" value="3.2">
+                <label for="ghz">3.2Ghz</label>
+                <br><br>
+                <input type="radio" name="ghz" value="4.1">
+                <label for="ghz">4.1Ghz</label>
+            </fieldset>
+             <br>
+             <label for="ram">Memoria RAM</label>
+                    <input type="number" name="ram" min="8" max="64" step="8" value="8">
+            <br><br>
+            <fieldset>
+                <legend>Perifericos</legend>
+                <input type="checkbox" name="tarj" value="1">
+                <label for="tarj">Lector de tarjetas</label>
+                <br><br>
+                <input type="checkbox" name="dvd" value="2">
+                <label for="dvd">Unidad de DVD´s</label>
+                <br><br>
+                <input type="checkbox" name="ms" value="3" checked>
+                <label for="ms">Mouse</label>
+                <br><br>
+                <input type="checkbox" name="kb" value="4" checked>
+                <label for="tarj">Teclado</label>
+            </fieldset>
+            <br>
+            <label for="name">Orden a nombre de:</label>
+            <input type="text" name="nomb" placeholder="Nombre completo" required>
+            <br><br>
+            <label for="comms">Comentarios</label><br>
+            <textarea name="comms" cols="15" rows="5"></textarea>
+            <br><br>
+            <input type="checkbox" name="conf" value="yes" required>
+                <label for="conf">Acepto los términos y condiciones del servicio</label>
+                <button onclick="location.href='file:///C:/Users/Pedro/OneDrive/Documentos/VisualStudioCode/Terminos%20y%20condiciones.html'">Leer</button>
+           <a href=""></a>
+                <br><br>
+             <input type="reset" value="Comenzar de nuevo">
+             <input type="submit" name="ok"  value="Guardar pedido">
+        </form>
+     </body>
+</html>
+<script src="registerForm.js"></script>

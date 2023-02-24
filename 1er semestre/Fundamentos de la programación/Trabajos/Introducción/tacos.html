@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Tacos a domicilio">
+        <meta name="keywords" content="tacos carne">
+        <meta name="author" content="Ashrah">
+        <title>.::Tacos de suaperro::.</title>
+    </head>
+    <body>
+        <h1>.::Tacos de Suaperro::.</h1>
+        <h2>Los mejores tacos de perro</h2>
+        <form method="post" action="">
+                <fieldset>
+                    <legend>Orden</legend>
+                    <label for="cant">Cantidad:</label>
+                    <input type="number" name="cant" min="1" max="100" placeholder="1-100" required>
+                    <br><br>
+                    <label for="ingrediente">Ingrediente:</label>
+                    <select name="ingrediente">
+                        <option value="pastor">Pastor</option>
+                        <option value="adobada">Adobada</option>
+                        <option value="tripas">Tripas</option>
+                        <option value="buche">Buche</option>
+                        <option value="prensado">Prensado</option>
+                        <option value="fajita">Fajita</option>
+                        <option value="suaperro" selected>Suaperro</option>
+                        <option value="birria">Birria</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Extras</legend>
+                    <input type="checkbox" name="sv" value="Salsa verde" checked>
+                    <label for="sv">Salsa verde</label>
+                    <br><br>
+                    <input type="checkbox" name="sr" value="Salsa roja">
+                    <label for="sr">Salsa roja</label>
+                    <br><br>
+                    <input type="checkbox" name="limon" value="Limón">
+                    <label for="limon">Limón</label>
+                    <br><br>
+                    <input type="checkbox" name="verdura" value="Verdura">
+                    <label for="verdura">Verdura</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Tipo de tortilla</legend>
+                    <input type="radio" name="tortilla" value="Tortilla de maíz">
+                    <label for="tortilla">Tortilla de maíz</label>
+                    <br>
+                    <input type="radio" name="tortilla" value="Tortilla de harina">
+                    <label for="tortilla">Tortilla de harina</label>
+                    <br>
+                    <input type="radio" name="tortilla" value="Tortilla amarilla">
+                    <label for="tortilla">Tortilla amarilla</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Información del cliente</legend>
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="name" placeholder="Nombre completo" required>
+                    <br><br>
+                    <label for="address">Dirección</label><br>
+                    <textarea name="address" cols="40" rows="10" placeholder="Calle Colonia Ciudad Estado Código postal" required></textarea>
+                    <br><br>
+                    <label for="phone">Teléfono</label>
+                    <input type="number" name="phone" required>
+                </fieldset>
+                <br><br>
+                <input type="reset" value="Eliminar">
+                <input type="submit" name="send" value="Enviar pedido">
+        </form>
+    </body>
+</html>
