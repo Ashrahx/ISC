@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(174, 174, 170);
+}
+
+.container div{
+    height: 50px;
+    width: 50px;
+    box-shadow: rgb(0, 0, 0) 2px 2px 4px;
+    background-color: rgb(3, 77, 189);
+}
+    .cont{
+        width: auto;
+        height: 50vh;
+        border: solid 1px black;
+    }
+    .container{
+        width: auto;
+        height: 300px;
+        background-color: yellowgreen;
+        border: solid 1px black;
+    }
+
+    .r{
+        display: flex;
+        flex-direction: row;
+    }
+    .rr{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .c{
+        display: flex;
+        flex-direction: column;
+    }
+    .cr{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .wrap{
+        display: flex;
+        flex-wrap: wrap;
+        height: 200px;
+        width: 400px;
+    }
+    .nwrap{
+        display: flex;
+        flex-wrap: nowrap;
+        height: 200px;
+        width: 400px;
+    }
+    .rwrap{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        height: 200px;
+        width: 400px;
+    }
+    .rowwrap{
+        display: flex;
+        flex-flow: column wrap;
+        height: 200px;
+        width: 400px;
+    }
+
+.container2{
+    width: auto;
+    height: 300px;
+    background-color: yellowgreen;
+    border: solid 1px black;
+}
+    .container2 div{
+        background-color: brown;
+        padding: 20px;
+    }
+
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    .start{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .end{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .spacea{
+        display: flex;
+        justify-content: space-around;
+    }
+    .spaceb{
+        display: flex;
+        justify-content: space-between;
+    }
+    .spacee{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .acenter{
+        display: flex;
+        align-items: center;
+    }
+    .astart{
+        display: flex;
+        align-items: flex-start;
+    }
+    .aend{
+        display: flex;
+        align-items: flex-end;
+    }
+    .astrech{
+        display: flex;
+        align-items: stretch;
+    }
+    .abaseline{
+        display: flex;
+        align-items: baseline;
+    }

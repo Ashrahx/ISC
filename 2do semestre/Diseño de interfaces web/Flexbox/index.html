@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FLEXBOX</h1>
+        <p>El Módulo de Caja Flexible, comúnmente llamado flexbox, fue diseñado como un modelo unidimensional de layout, y como un método que pueda ayudar a distribuir el espacio entre los ítems de una interfaz y mejorar las capacidades de alineación.</p>
+        <h3>propiedades :</h3>
+        <p>
+            flex-direction <br>
+            flex-wrap <br>
+            flex-flow <br>
+            justify-content <br>
+            align-items <br>
+            align-content <br>
+        </p>
+    </div> 
+    <h3>flex-direction</h3>
+    <p>definimos en que orde colocamos los elementos</p>
+    <h4>flex-direction: row</h4>
+    <div class="container r">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>   
+    <h4>flex-direction: row-reverse</h4>
+    <div class="container rr">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>   
+    <h4>flex-direction: column</h4>
+    <div class="container c">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>   
+    <h4>flex-direction: column-reverse</h4>
+    <div class="container cr">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>   
+    <hr>
+    <h2>flex-wrap</h2>
+    <h4>flex-wrap: wrap</h4>
+    <div class="container wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+    <h4>flex-wrap: nowrap</h4>
+    <div class="container nwrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+    <h4>flex-wrap: wrap-reverse</h4>
+    <div class="container rwrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+
+    <hr>
+    <h2>flex-flow</h2>
+    <p>Se usa para abreviar la propiedad de flex-direction y flex-wrap</p>
+    <h4>flex-flow: row wrap</h4>
+    <div class="container rowwrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+
+    <h2>justify-content</h2>
+    <p>Se usa para acomodar el contenido</p>
+
+    <h4>justify-content: center</h4>
+    <div class="container2 center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <h4>justify-content: flex-start</h4>
+    <div class="container2 start">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <h4>justify-content: flex-end</h4>
+    <div class="container2 end">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <h4>justify-content: space-around</h4>
+    <div class="container2 spacea">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <h4>justify-content: space-between</h4>
+    <div class="container2 spaceb">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <h4>justify-content: space-betweenn</h4>
+    <div class="container2 spacee">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+
+    <h2>align-items</h2>
+    <p>Lo usamos para alinear verticalmente los </p>
+    <h4>align-items: centern</h4>
+    <div class="container2 acenter">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <h4>align-items: flex-start</h4>
+    <div class="container2 astart">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <h4>align-items: flex-end</h4>
+    <div class="container2 aend">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <h4>align-items: strech</h4>
+    <div class="container2 astrech">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <h4>align-items: baseline</h4>
+    <div class="container2 abaseline">
+        <div><h1>1</h1></div>
+        <div><h4>2</h4></div>
+        <div><h6>3</h6></div>
+        <div><h2>4</h2></div>
+        <div><h3>5</h3></div>
+    </div>
+</body>
+</html>
