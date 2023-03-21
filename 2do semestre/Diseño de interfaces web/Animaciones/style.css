@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.anim{
+    font-family: 'Gilroy';
+    text-decoration: none;
+    margin: 50px;
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    color: white;
+    display: grid;
+    place-content: center;
+    background-color: blueviolet;
+    /*animation-name: mov;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    animation-direction: reverse;*/
+}
+
+.anim:hover{
+    background-color: #00DFFD;
+    animation-name: mov;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: 300ms;
+}
+
+@keyframes mov{
+    0%{
+        top: 0;
+        left: 0;
+        background-color: blueviolet;
+    }
+    25%{
+        top: 0;
+        left: 50%;
+        background-color: #00DFFD;
+    }
+    50%{
+        top: 50%;
+        left: 50%;
+        background-color: rgb( 255, 0, 299);
+    }
+    75%{
+        top: 50%;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        background-color: blueviolet;
+    }
+}
+
