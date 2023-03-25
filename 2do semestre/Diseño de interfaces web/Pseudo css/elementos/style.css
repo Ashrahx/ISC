@@ -1,0 +1,101 @@
+:root{
+    --gris_claro: rgba(223, 222, 222, 0.61);
+    --cafe_claro: rgb(209, 151, 86);
+    --sombra: black;
+    --fondo: rgba(248, 185, 103, 0.795);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../../img/Fondos/Fondo8.jpg");
+    background-position: center; 
+
+    display: grid;
+    grid-template-columns: minmax(400px, 1fr);
+}
+
+h1{
+    justify-self: center;
+    background-color: var(--gris_claro);
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 10px;
+    box-shadow: var(--sombra) 2px 2px 6px;
+    text-shadow: var(--cafe_claro) 1px 1px 3px;
+
+}
+
+p{
+    background-color: var(--gris_claro);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.container{
+    background-color: var(--gris_claro);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: var(--sombra) 2px 2px 6px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    gap: 20px;
+}
+    .container > div{
+        height: 20rem;
+        border-radius: 10px;
+        box-shadow: var(--sombra) 0px 2px 4px;
+        display: grid;
+        grid-template-rows: 1fr 4fr 1fr;
+        background-color: var(--fondo);
+    }
+    div > *{
+        justify-self: center;
+    }
+    .despues1::after{
+        content: "";
+        display: block;
+        background-color: rgba(206, 206, 206, 0);
+        border-top: 1rem solid rgb(33, 163, 223);
+        border-right: 1rem solid rebeccapurple;
+        border-bottom: 1rem solid rgb(63, 218, 133);
+        border-left: 1rem solid rgba(102, 51, 153, 0);
+    }
+    .despues2::after{
+        content: "texto agregado";
+        background-color: black;
+        color: #FFF;
+        padding: 0 10px;
+        border-radius: 5px;
+    }
+    .antes::before{
+        content: "";
+        display: block;
+        border-top: 2rem solid rgba(106, 142, 35, 0);
+        border-right: 2rem solid rgba(106, 142, 35, 0);
+        border-bottom: 2rem solid rgba(106, 142, 35, 0);
+        border-left: 2rem solid olivedrab;
+    }
+    .primer::first-letter{
+        color: red;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .primer_linea::first-line{
+        color: peru;
+        font-weight: bold;
+    }
+    .seleccion::selection{
+        color: #FFF;
+        background-color: rebeccapurple;
+    }
+    li::marker{
+        color: red;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }

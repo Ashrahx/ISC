@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --degradado: linear-gradient(45deg, rgb(155, 155, 155) 0%, rgb(234, 234, 234) 100%);
+    
+}
+
+.cero{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 1rem;
+    background-color: aquamarine;
+    padding: 1rem;
+}
+
+form{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    place-items: center;
+    gap: 1rem;
+    background: var(--degradado);
+    box-shadow: 0 4px 10px rgb(77, 77, 77) ;
+    border-radius: 1rem;
+}
+input{
+    margin: 1rem;
+    height: 2rem;
+    border-radius: .5rem;
+}
+
+input[type="text"]:focus{
+    box-shadow: 0 0 10px gold;
+    border: none;
+    outline: none;
+}
+
+input:active{
+    box-shadow: 2px 2px 8px black;
+}
+
+input:disabled{
+    background-color: rgb(251, 171, 142);
+}
+
+input[type="email"]:valid{
+    color: green;
+    background-color: rgb(207, 248, 209);
+    text-align: center;
+}
+input[type="email"]:invalid{
+    color: rgb(242, 242, 242);
+    background-color: rgb(255, 95, 63);
+}
+
+input:required{
+    border: 3px red solid;
+}
+
+input:checked{
+    transform: scale(2);
+}
+
