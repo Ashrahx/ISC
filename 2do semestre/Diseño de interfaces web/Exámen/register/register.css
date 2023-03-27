@@ -264,6 +264,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
   }
   
   nav ul {
@@ -313,8 +314,9 @@
     color: #fff;
     justify-content: space-between;
     font-family: "Muli";
-    
-  
+    padding: 15px 23px; /* añadimos padding para separar el contenido del borde */
+    box-sizing: border-box; /* hacemos que el padding no afecte el ancho del elemento */
+    font-size: 16px; /* establecemos un tamaño de fuente por defecto */
   }
   
   footer span a{
@@ -346,6 +348,29 @@
     font-size: 22px;
   }
   
+  /* Zona de media query */
+  @media only screen and (min-width: 351px) and (min-height: 801px){
+    footer {
+      flex-direction: column; /* cambiamos la dirección del flexbox */
+      align-items: center; /* centramos los elementos */
+      font-size: 14px; /* reducimos el tamaño de fuente */
+      padding: 15px; /* reducimos el padding */
+    }
+
+    body{
+        overflow: hidden; /* Ocultar las barras de desplazamiento */
+    }
+    
+    .medias a {
+      margin: 10px 0; /* agregamos un margen vertical */
+    }
+  }
+
+  @media (max-width: 600px) {
+    .login-box
+  }
+  
+
   @media (max-width: 1104px) {
     body{
       height: 2100px;
@@ -372,6 +397,7 @@
       font-size: 12px;
     }
   }
+  
   
   /*Animaciones*/
   

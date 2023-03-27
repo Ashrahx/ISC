@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<footer class="encabezado">
+		<div>Encabezado</div>
+	</footer>
+	<main>
+	<div class="contenedor">
+		<h1 class="titulo">Formulario con pseudo-clases</h1>
+
+		<form class="formulario" action="">
+			<div class="grupo">
+				<label>:focus</label>
+				<input class="nombre" type="text" placeholder="Nombre completo">
+			</div>
+
+			<div class="grupo">
+				<label>:disabled</label>
+				<input class="id" type="text" placeholder="Id: 27551" disabled>
+			</div>
+
+			<div class="grupo">
+				<label>:valid / :invalid</label>
+				<input  class="correo" type="email" placeholder="correo@dominio.com" required>
+			</div>
+
+			<div class="grupo">
+				<label>:required</label>
+				<input class="mensaje" type="text" placeholder="Mensaje" required>
+			</div>
+			
+			<div class="grupo">
+				<label>:checked</label>
+				<div class="radio">
+					<label><input type="checkbox" id="terminos"> <a class="enlace" href="">Acepto los términos y condiciones</a></label>
+				</div>
+			</div>
+			
+			<div class="grupo">
+				<label>:default</label>
+				<div class="checkbox">
+					<label><input type="radio" name="opcion" id="1" value="1">Opción  1</label>
+					<label><input type="radio" name="opcion" id="2" value="2" checked>Opción  2</label>
+					<label><input type="radio" name="opcion" id="3" value="3">Opción  3</label>
+				</div>
+			</div>
+
+			<div class="grupo">
+				<label>:in-range</label>
+				<input class="edad" type="number" placeholder="101" min="1" max="100" value="1">
+			</div>
+
+			<button type="submit" class="boton">Enviar</button>
+		</form>
+	</div>
+</main>
+<footer class="piedepagina">
+	<div>Pié de página</div>
+</footer>
+</body>
+</html>
