@@ -23,7 +23,7 @@ $(document).ready(function(){
     });
 
     $('.navbar .menu li a').click(function(){
-        // applying again smooth scroll on menu items click
+        // Aplica nuevamente el desplazamiento suave en los elementos del menú haga clic
         $('html').css("scrollBehavior", "smooth");
     });
 
