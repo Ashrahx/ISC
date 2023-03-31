@@ -1,0 +1,188 @@
+{
+  "animes": [
+    {
+      "nombre": "Attack on Titan",
+      "imagen": "images/attack-on-titan.jpg",
+      "descripcion": "",
+      "genero": ["Acción", "Drama", "Fantasía"],
+      "episodios": 75,
+      "valoracion": 4
+    },
+    {
+      "nombre": "Naruto",
+      "imagen": "naruto.jpg",
+      "genero": ["Acción", "Aventura", "Comedia", "Drama"],
+      "episodios": 220,
+      "descripcion": "",
+      "valoracion": 4
+    },
+    {
+      "nombre": "One Punch Man",
+      "imagen": "/images/opm.jpg",
+      "descripcion": "",
+      "genero": ["Acción", "Comedia", "Ciencia Ficción"],
+      "episodios": 24,
+      "valoracion": 3
+    },
+    {
+      "nombre": "NieR: Automata Ver1.1",
+      "imagen": "images/nier-automata.jpg",
+      "descripcion": "",
+      "genero": ["Acción", "RPG", "Ciencia Ficción"],
+      "episodios": 1,
+      "valoracion": 4
+    },
+    {
+      "nombre": "One Piece",
+      "imagen": "images/one-piece.jpg",
+      "descripcion": "",
+      "genero": ["Acción", "Aventura", "Comedia"],
+      "episodios": 1000,
+      "valoracion": 4
+    },
+    {
+      "nombre": "Bungo Stray Dogs",
+      "imagen": "images/bungo-stray-dogs.jpg",
+      "descripcion": "",
+      "genero": ["Acción", "Misterio", "Sobrenatural"],
+      "episodios": 36,
+      "valoracion": 4
+    },
+    {
+      "nombre": "Junji Ito Maniac",
+      "imagen": "images/junji-ito-maniac.jpg",
+      "descripcion": "",
+      "genero": ["Horror", "Misterio", "Sobrenatural"],
+      "episodios": 1,
+      "valoracion": 3
+    },
+    {
+      "nombre": "Revenger",
+      "imagen": "images/revenger.jpg",
+      "descripcion": "",
+      "genero": ["Acción", "Drama", "Crimen"],
+      "episodios": 1,
+      "valoracion": 3
+    },
+    {
+      "nombre": "Tokyo Revengers",
+      "imagen": "images/tokyo-revengers.jpg",
+      "descripcion": "",
+      "genero": ["Acción", "Drama", "Viajes en el Tiempo"],
+      "episodios": 24,
+      "valoracion": 4
+    },
+    {
+      "nombre": "Chainsaw Man",
+      "imagen": "images/chainsaw-man.jpg",
+      "descripcion": "",
+      "genero": ["Acción", "Horror", "Sobrenatural"],
+      "episodios": 1,
+      "valoracion": 4
+    },
+    {
+      "nombre": "Gudetama del Cascarón a la Aventura",
+      "imagen": "images/gudetama.jpg",
+      "descripcion": "",
+      "genero": ["Comedia", "Aventura", "Fantasía"],
+      "episodios": 13,
+      "valoracion": 3
+    },
+    {
+      "nombre": "Nanatsu no Taizai",
+      "imagen": "images/nanatsu-no-taizai.jpg",
+      "descripcion": "",
+      "genero": ["Acción", "Aventura", "Fantasía"],
+      "episodios": 24,
+      "valoracion": 4
+    },
+    {
+      "nombre": "Kimi no Na wa (Your Name)",
+      "imagen": "images/kimi-no-na-wa.jpg",
+      "descripcion": "",
+      "genero": ["Drama", "Romance", "Ciencia Ficción"],
+      "episodios": 1,
+      "valoracion": 5
+    },
+    {
+      "nombre": "Kimi no Suizou wo Tabetai (I Want to Eat Your Pancreas)",
+      "imagen": "images/i-want-to-eat-your-pancreas.jpg",
+      "descripcion": "",
+      "genero": ["Drama", "Romance"],
+      "episodios": 1,
+      "valoracion": 4
+    },
+    {
+      "nombre": "A Silent Voice",
+      "imagen": "images/a-silent-voice.jpg",
+      "descripcion": "",
+      "genero": ["Drama", "Romance"],
+      "episodios": 1,
+      "valoracion": 5
+    },
+    {
+      "nombre": "Go-Toubun no Hanayome (The Quintessential Quintuplets)",
+      "imagen": "images/go-toubun-no-hanayome.jpg",
+      "descripcion": "",
+      "genero": ["Comedia", "Romance"],
+      "episodios": 24,
+      "valoracion": 3
+    },
+    {
+      "nombre": "Jujutsu Kaisen 0",
+      "imagen": "images/jujutsu-kaisen-0.jpg",
+      "descripcion": "",
+      "genero": ["Acción", "Aventura"],
+      "episodios": 1000,
+      "valoracion": 4
+    },
+    {
+      "nombre": "Kaguya-sama: Love is War",
+      "imagen": "images/kaguya-sama.jpg",
+      "descripcion": "",
+      "genero": ["Comedia", "Romance"],
+      "episodios": 24,
+      "valoracion": 5
+    },
+    {
+      "nombre": "Demon Slayer: Kimetsu no Yaiba",
+      "imagen": "images/demon-slayer.jpg",
+      "descripcion": "",
+      "genero": ["Acción", "Aventura", "Sobrenatural"],
+      "episodios": 26,
+      "valoracion": 4
+    },
+    {
+      "nombre": "My Neighbor Totoro",
+      "imagen": "images/totoro.jpg",
+      "descripcion": "",
+      "genero": ["Fantasía"],
+      "episodios": 1,
+      "valoracion": 5
+    },
+    {
+      "nombre": "My Hero Academia",
+      "imagen": "images/demon-slayer.jpg",
+      "descripcion": "",
+      "genero": ["Acción", "Aventura", "Sobrenatural"],
+      "episodios": 26,
+      "valoracion": 4
+    },
+    {
+      "nombre": "BLUELOCK",
+      "imagen": "images/demon-slayer.jpg",
+      "descripcion": "",
+      "genero": ["Acción", "Aventura", "Sobrenatural"],
+      "episodios": 26,
+      "valoracion": 4
+    },
+    {
+      "nombre": "Don't toy with me, miss Nagatoro",
+      "imagen": "images/demon-slayer.jpg",
+      "descripcion": "",
+      "genero": ["Comedia", "Romance"],
+      "episodios": 26,
+      "valoracion": 3
+    }
+  ]
+}

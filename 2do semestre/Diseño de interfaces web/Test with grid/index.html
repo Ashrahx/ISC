@@ -1,0 +1,211 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Fuuba</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'>
+</script><script  src="./script.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Encabezado -->
+    <header>
+      <div class="fuubalogo">
+        <a id="logo" href="#home"><img src="/images/logo.png" alt="logo"></a>
+      </div>
+      <nav class="main-nav">
+        <a href="#recom">Inicio</a>      
+        <a href="#popular">Popular</a>
+        <a href="#trending">Trending</a>
+        <a href="#series">Series</a>
+        <a href="#add">Añadidos recientemente</a>
+        <a href="#movies">Películas</a>
+        <a target="_blank" href="">Mi lista</a>        
+      </nav>
+      <nav class="search-nav">
+        <form id="buscar">
+          <input type="search" id="input-busqueda"  oninput="buscarAnime()" placeholder="Buscar">
+          <div id="contenedor-resultados" style="display: block;">
+            <a href=""><div id="resultados"></div></a>
+          </div>
+      </form>
+     </nav>
+      <nav class="sub-nav">
+          <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a>
+          <a target="_blank" href="#"><i class="fas fa-user sub-nav-logo"></i></a>        
+      </nav>      
+    </header>
+    <!-- Fin del encabezado -->
+    <div></div>
+    <div></div>
+    <div></div>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <!-- Contenedor principal -->
+    <main>
+
+
+      <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              
+              <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/341ee9d0732bd1df3ca278dcaf6e11be.jpe" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">07 Enero 2023</span>
+              <div class="blog-slider__title">Don't toy with me, miss  Nagatoro T2</div>
+              <div class="blog-slider__text">Nagatoro intenta ayudar a su querido compañero a ser más flexible y decide entrenar un poco con él. Nuestro protagonista se enfrentará a la presidenta del club en una competencia durante el festival y tiene que buscar modelo para su obra. </div>
+              <a href="#" class="blog-slider__button">Ver ahora</a>
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/585041e91bb7168df89a98eb5318d88c.jpe" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">09 Octubre 2022</span>
+              <div class="blog-slider__title">BLUELOCK</div>
+              <div class="blog-slider__text">Yoichi es un joven al que acaban de eliminar junto a su equipo. De pronto recibe una carta donde lo convocan para participar en un extraño experimento sobre fútbol.</div>
+              <a href="#" class="blog-slider__button">Ver ahora</a>
+            </div>
+          </div>
+          
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="https://img1.ak.crunchyroll.com/i/spire2/45024cf9d86a6480fe6cabbd2d051b961659723516_main.png" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">26 December 2019</span>
+              <div class="blog-slider__title">My hero Academia T6</div>
+              <div class="blog-slider__text">Estamos en un mundo donde abundan los superhéroes (y los supervillanos). Los mejores humanos son entrenados en la Academia de Héroes para optimizar sus poderes. Entre la minoria normal, sin poder alguno, aparece Izuku Midoriya, dispuesto a ser una excepción y formarse en la Academia para convertirse en leyenda.</div>
+              <a href="#" class="blog-slider__button">Ver ahora</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="blog-slider__pagination"></div>
+      </div>
+    <section class="main-container" >
+      <div class="location" id="home">
+          <h1 id="popular">Popular en Fuuba</h1><div class="box">
+            <div class="slider-frame">
+                <div class="btn prev"></div>
+                <div class="btn next"></div>
+                <div class="slider-container">
+                    <div class="slide" style="background-image: url(/images/opm.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="One Punch Man" ></div>
+                    <div class="slide" style="background-image: url(/images/snk.jpe); background-position: center; background-attachment: contain; background-size: cover;" title="Attack On Titan"></div>
+                    <div class="slide" style="background-image: url(/images/nier.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Nier: Automata Ver1.1a" ></div>
+                    <div class="slide" style="background-image: url(/images/onepiece.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="One Piece"></div>
+                    <div class="slide" style="background-image: url(/images/bsd.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Bungo Stray Dogs"></div>
+                    <div class="slide" style="background-image: url(/images/junji.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Junji Ito Maniac" ></div>
+                    <div class="slide" style="background-image: url(/images/revenger.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Revenger"></div>
+                    <div class="slide" style="background-image: url(/images/tokio.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Tokio Revengers" ></div>
+                </div>
+            </div>
+          </div>
+      
+
+      <h1 id="trending">Trending</h1>
+      <div class="box">
+        <div class="slider-frame">
+            <div class="btn prev"></div>
+            <div class="btn next"></div>
+            <div class="slider-container">
+                <div class="slide" style="background-image: url(/images/snk.jpe); background-position: center; background-attachment: contain; background-size: cover;" title="Attack On Titan" ></div>
+                <div class="slide" style="background-image: url(/images/chain.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Chainsaw Man"></div>
+                <div class="slide" style="background-image: url(/images/junji.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Junji Ito Maniac" ></div>
+                <div class="slide" style="background-image: url(/images/tokio.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Tokio Revengers" ></div>
+                <div class="slide" style="background-image: url(/images/nier.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Nier: Automata Ver1.1a" ></div>
+                <div class="slide" style="background-image: url(/images/revenger.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Revenger"></div>
+                <div class="slide" style="background-image: url(/images/death.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Death Note"></div>
+            </div>
+        </div>                
+      </div>
+      
+      <h1 id="series">Series</h1>
+      <div class="box">
+        <div class="slider-frame">
+            <div class="btn prev"></div>
+            <div class="btn next"></div>
+            <div class="slider-container">
+                <div class="slide" style="background-image: url(/images/gude.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Gudetama del cascarón a la aventura " ></div>
+                <div class="slide" style="background-image: url(/images/onepiece.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="One Piece"></div>
+                <div class="slide" style="background-image: url(/images/nanatsu.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Nanatsu No Taizai" ></div>
+                <div class="slide" style="background-image: url(/images/naruto.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Naruto Shippuden" ></div>
+                <div class="slide" style="background-image: url(/images/death.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Death Note"></div>
+            </div>
+        </div>   
+      </div>
+      
+
+      <h1 id="add">Añadidos recientemente</h1>
+      <div class="box">
+         <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>               
+      </div>
+
+      <h1 id="movies">Películas</h1>
+      <div class="box">
+        <div class="slider-frame">
+          <div class="btn prev"></div>
+          <div class="btn next"></div>
+          <div class="slider-container">
+              <div class="slide" style="background-image: url(/images/kimi.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Kimi No Nawa" ></div>
+              <div class="slide" style="background-image: url(/images/iweyp.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="I Want To Eat Your Pancreas"></div>
+              <div class="slide" style="background-image: url(/images/silent.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="A Silent Voice" ></div>
+              <div class="slide" style="background-image: url(/images/quinto.png); background-position: center; background-attachment: contain; background-size: cover;" title="Go Toubun No Hanayome" ></div>
+              <div class="slide" style="background-image: url(/images/jujutsu.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Jujutsu Kaisen 0"></div>
+              <div class="slide" style="background-image: url(/images/kaguya.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="Kaguya Sama Love Is War"></div>
+              <div class="slide" style="background-image: url(/images/kimetsu.png); background-position: center; background-attachment: contain; background-size: cover;" title="Demon Slayer Movie" ></div>
+              <div class="slide" style="background-image: url(/images/totoro.jpg); background-position: center; background-attachment: contain; background-size: cover;" title="My Neighbor Totoro" ></div>
+          </div>
+      </div>              
+      </div>
+    </main>
+    <!-- Fin del contenedor principal -->
+
+
+    <!-- Pie de página -->
+    <footer>
+        <section class="link">
+            <div class="logos">
+              <a href="#"><i class="fab fa-facebook-square fa-2x logo"></i></a>
+              <a href="#"><i class="fab fa-instagram fa-2x logo"></i></a>
+              <a href="#"><i class="fab fa-twitter fa-2x logo"></i></a>
+              <a href="#"><i class="fab fa-youtube fa-2x logo"></i></a>
+            </div>
+            <div class="sub-links">
+              <ul>
+                <li><a href="#">Audio y subtítulos</a></li>
+                <li><a href="#">Descripción de audio</a></li>
+                <li><a href="#">Centro de ayuda</a></li>
+                <li><a href="#">Tarjetas de regalo</a></li>
+                <li><a href="#">Centro de Medios</a></li>
+                <li><a href="#">Relaciones con inversionistas</a></li>
+                <li><a href="#">Condiciones de uso</a></li>
+                <li><a href="#">Privacidad</a></li>
+                <li><a href="#">Avisos legales</a></li>
+                <li><a href="#">Información corporativa</a></li>
+                <li><a href="#">Contáctenos</a></li>
+              </ul>
+            </div>
+          </section>
+      <p>&copy 2023 Fuuba, Inc.</p>
+      <span>Created By <a href="#">Ashrah</a> | <span class="far fa-copyright"></span> 2023 All rights reserved.</span>
+    </footer>
+  </div>
+</body>
+</html>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="main.js"></script>
