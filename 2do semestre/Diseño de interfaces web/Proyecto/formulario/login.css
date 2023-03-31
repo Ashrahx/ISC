@@ -3,6 +3,14 @@
   --lightblue: #34b4fc;
   --lightpurple: #9977bc;
 }
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('fonts/Gilroy-Black.ttf'), 
+	url('fonts/Gilroy-ExtraBold.otf'), 
+	url('fonts/Gilroy-Light.otf'),
+  }
+
 * {
 	box-sizing: border-box;
 	transition: .25s all ease;
@@ -173,6 +181,12 @@ header {
 	color: rgb(17, 97, 237);
 }
 @media only screen and (min-width: 351px) and (min-height: 801px) {
+	.login-container{
+		width: 356px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
 	.login-container{
 		width: 356px;
 	}
