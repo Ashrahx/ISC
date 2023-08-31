@@ -1,0 +1,16 @@
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\bin\Debug\net6.0-windows\Libro.exe
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\bin\Debug\net6.0-windows\Libro.deps.json
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\bin\Debug\net6.0-windows\Libro.runtimeconfig.json
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\bin\Debug\net6.0-windows\Libro.dll
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\bin\Debug\net6.0-windows\Libro.pdb
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\obj\Debug\net6.0-windows\Libro.Form1.resources
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\obj\Debug\net6.0-windows\Libro.vbproj.GenerateResource.cache
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\obj\Debug\net6.0-windows\Libro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\obj\Debug\net6.0-windows\Libro.AssemblyInfoInputs.cache
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\obj\Debug\net6.0-windows\Libro.AssemblyInfo.vb
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\obj\Debug\net6.0-windows\Libro.vbproj.CoreCompileInputs.cache
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\obj\Debug\net6.0-windows\Libro.dll
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\obj\Debug\net6.0-windows\refint\Libro.dll
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\obj\Debug\net6.0-windows\Libro.pdb
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\obj\Debug\net6.0-windows\Libro.genruntimeconfig.cache
+C:\Users\Elfud\Desktop\Programacion 2\Libro\Libro\obj\Debug\net6.0-windows\ref\Libro.dll
