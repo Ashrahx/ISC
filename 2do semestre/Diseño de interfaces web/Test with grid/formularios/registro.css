@@ -3,6 +3,15 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.otf'),
+  url('../fonts/Gilroy-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-family: sans-serif;
+  }
+
 body {
   margin: 0;
   padding: 0;
@@ -214,14 +223,14 @@ body {
 .cuestion {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.83em;
-  font-family: "Muli";
+  font-family: 'Gilroy';
   text-align: center;
 }
 
 .cuestion_link {
   color: #fff;
   font-size: 13.12px;
-  font-family: "Muli";
+  font-family: 'Gilroy';
   text-decoration: none;
   text-align: center;
 }
@@ -234,6 +243,7 @@ body {
 .terms {
   text-align: center;
   margin-top: 40px;
+  font-family: 'Gilroy';
 }
 
 
@@ -312,7 +322,7 @@ footer {
   display: flex;
   color: #fff;
   justify-content: space-between;
-  font-family: "Muli";
+  font-family: 'Gilroy';
   
 
 }
@@ -331,6 +341,7 @@ footer span a:hover{
   text-decoration: none;
   text-align: center;
   font-size: 15px;
+  font-family: 'Gilroy';
 }
 
 .policy a:hover{

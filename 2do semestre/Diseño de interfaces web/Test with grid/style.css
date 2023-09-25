@@ -6,6 +6,16 @@
   --purplelight: #9977bc;
 }
 
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('fonts/Gilroy-ExtraBold.otf'),
+  url('fonts/Gilroy-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-family: sans-serif;
+  }
+
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
